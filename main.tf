@@ -10,3 +10,8 @@ tags = {
      Name = "My_instance"
   }
 }
+
+
+resource "aws_s3_bucket" "example" { 
+      bucket = "shanilbucket23312djiq9349"
+}
